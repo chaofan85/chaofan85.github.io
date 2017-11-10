@@ -36,3 +36,20 @@ ul.major-icons li {
   top: 25px;
   transform: rotate(-45deg);
 }
+
+.style3 img, .style4 img, .style5 img, .style6 img {
+  margin: 10px;
+}
+
+/*#three .image {
+  position: relative;
+}*/
+/*
+#three span .project-title {
+  position: absolute;
+}
+
+#three img {
+  opacity: 0.3;
+  position: absolute;
+}*/
