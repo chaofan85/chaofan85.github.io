@@ -41,15 +41,10 @@ ul.major-icons li {
   margin: 10px;
 }
 
-/*#three .image {
-  position: relative;
-}*/
-/*
-#three span .project-title {
-  position: absolute;
+#three img {
+  opacity: 0.6;
 }
 
-#three img {
-  opacity: 0.3;
-  position: absolute;
-}*/
+.instaview-title {
+  font-family: 'Elsie', cursive;
+}
