@@ -52,7 +52,9 @@ ul.major-icons li {
 }
 
 #three img {
-  opacity: 0.6;
+  /*opacity: 0.6;*/
+  width: 330px;
+  height: 220px;
 }
 
 .instaview-title {
