@@ -44,15 +44,83 @@ ul.major-icons li {
   margin: 10px;
 }
 
-.skills {
-  list-style: none;
-  font-size: 24px;
-  line-height: 2;
-  /*color: #2d3172;*/
+.style2 {
+  padding: 20px;
+}
+
+.style2 h2 {
+  text-align: center;
+}
+
+.skill-list {
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-block {
+  width: 110px;
+  height: 100px;
+}
+
+.skill-block p {
+  text-align: center;
+  font-size: 600;
+}
+
+.skill-icon {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.icon1 {
+  background-image: url("../../images/html-logo.png");
+}
+
+.icon2 {
+  background-image: url("../../images/css3.png");
+}
+
+.icon3 {
+  background-image: url("../../images/javascript.png");
+}
+
+.icon4 {
+  background-image: url("../../images/react.png");
+}
+
+.icon5 {
+  background-image: url("../../images/redux.png");
+}
+
+.icon6 {
+  background-image: url("../../images/jquery_logo.png");
+}
+
+.icon7 {
+  background-image: url("../../images/ruby.png")
+}
+
+.icon8 {
+  background-image: url("../../images/rails-logo.png")
+}
+
+.icon9 {
+  background-image: url("../../images/postgresql.png")
+}
+
+.icon10 {
+  background-image: url("../../images/git.png")
 }
 
 #three img {
-  /*opacity: 0.6;*/
   width: 330px;
   height: 220px;
 }
