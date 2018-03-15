@@ -979,6 +979,7 @@ iframe {
   font-size: 13px;
   padding: 3px 30px 2px 10px;
   color: #ffffff;
+  text-shadow: 1px 1px 1px #474747;
   /* background-color: rgba(25, 25, 25, 0.2); */
 }
 .progress > .progress-completed {
