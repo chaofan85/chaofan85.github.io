@@ -1110,6 +1110,7 @@ iframe {
   -webkit-transform: translateY(0px);
   -moz-transform: translateY(0px);
 }
+
 .project-description-wrapper {
   display: block;
   width: 100%;
@@ -1129,7 +1130,7 @@ iframe {
   width: 100%;
 }
 .project-title {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 20px;
   transform: translateY(10px);
   -webkit-transform: translateY(10px);
@@ -1137,6 +1138,21 @@ iframe {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+#instaview {
+  font-family: 'Elsie', cursive;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+}
+#gdpmap {
+  font-family: 'Fredericka the Great', cursive;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+#trivia {
+  font-family: 'Mystery Quest', cursive;
+  letter-spacing: 2px;
+  font-size: 24px;
 }
 .project-title:after {
   content: '';
