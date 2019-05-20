@@ -1,622 +1,1246 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Chao Fan - Software Developer</title>
+	
+	<!--
+		Basic
+	-->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+	<title>Chao - vCard / Resume / CV Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<meta name="description" content="vCard & Resume Template" />
+	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, cards, portfolio" />
+	<meta name="author" content="beshleyua" />
+	
+	<!--
+		Load Fonts
+	-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i&amp;subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Elsie&display=swap" rel="stylesheet">
 
-<!-- Favicons
-================================================== -->
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-<!-- / Favicons
-================================================== -->
-
-<!-- >> CSS
-============================================================================== -->
-<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- Google Web Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Elsie" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Mystery+Quest" rel="stylesheet">
-
-<!-- Font Awesome -->
-<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-<!-- Nivo Lightbox -->
-<link href="vendor/nivo-lightbox/nivo-lightbox.css" rel="stylesheet">
-<link rel="stylesheet" href="vendor/nivo-lightbox/themes/default/default.css" type="text/css" />
-  <!-- /Nivo Lightbox -->
-  <!-- Perfect ScrollBar -->
-<link href="vendor/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
-<!-- owl carousel -->
-<link href="vendor/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
-<link href="vendor/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
-<!-- Main Styles -->
-<link href="css/styles.css" rel="stylesheet">
-
-<!-- >> /CSS
-============================================================================== -->
+	
+	<!--
+		Load CSS
+	-->
+	<link rel="stylesheet" href="css/basic.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/blogs.css" />
+	<link rel="stylesheet" href="css/line-awesome.css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/simplebar.css" />
+	
+	<!-- theme colors -->
+	<link rel="stylesheet" href="css/theme-colors/green.css" />
+	<!--<link rel="stylesheet" href="css/theme-colors/blue.css" />-->
+	<!--<link rel="stylesheet" href="css/theme-colors/red.css" />-->
+	<!--<link rel="stylesheet" href="css/theme-colors/orange.css" />-->
+	<!--<link rel="stylesheet" href="css/theme-colors/pink.css" />-->
+	<!--<link rel="stylesheet" href="css/theme-colors/purple.css" />-->
+	
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!--
+		Favicons
+	-->
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	
 </head>
+
 <body>
-<!-- Page Loader
-========================================================= -->
-<div class="loader-container" id="page-loader">
-  <div class="loading-wrapper">
-  	<div class="loader-animation" id="loader-animation">
-  		<span class="loader"><span class="loader-inner"></span></span>
-  	</div>
-    <!-- Edit With Your Name -->
-    <div class="loader-name" id="loader-name">
-      Chao <strong>Fan</strong>
-    </div>
-    <!-- /Edit With Your Name -->
-    <!-- Edit With Your Job -->
-    <p class="loader-job" id="loader-job">Software Developer</p>
-    <!-- /Edit With Your Job -->
-  </div>
-</div>
-<!-- /End of Page loader
-========================================================= -->
-
-<!-- Main Content
-================================================== -->
-<section id="body" class="">
-
-	<div class="container">
-
-		<!-- MAIN MENU -->
-		<div class="main-menu" id="main-menu">
-			<ul class="main-menu-list">
-				<li><a href="#page-resume" class="link-home">Home</a></li>
-				<li><a href="#page-resume" class="link-page">Resume</a></li>
-				<li><a href="#page-skills" class="link-page">Skills</a></li>
-				<li><a href="#page-portfolio" class="link-page">Portfolio</a></li>
-				<li><a href="#page-contact" class="link-page">Contact</a></li>
-			</ul>
-		</div>
-		<!-- /MAIN MENU -->
-
-		<!-- SECTION: vCard Body  -->
-		<div class="section-vcardbody section-home" id="section-home">
-			<!-- Profile pic-->
-			<div class="vcard-profile-pic">
-				<img src="img/chao.png" id="profile2"  alt=""/>
-				<img src="img/chao.png" id="profile1" class="profileActive" alt=""/>
-			</div>
-			<!-- /Profile pic -->
-			<!-- Description -->
-			<div class="vcard-profile-description">
-				<!-- Profile title -->
-				<h1 class="profile-title">Hi, I'm <span class="color1">Chao!</span></h1>
-				<h2 class="profile-subtitle">Software Developer</h2>
-				<!-- /Profile Title -->
-				<!-- Description Text -->
-				<hr class="hr1">
-				<div class="vcard-profile-description-text">
-					<p>Experienced in building full stack web applications with Javascript, React, Redux, Rails, and PostgreSQL. <br> I enjoy fresh ideas and making them into reality.</p>
-				</div>
-				<!--/ Description Text -->
-				<!-- Description feature -->
-				<div class="vcard-profile-description-feature">
-					<!-- item -->
-					<div class="vcard-profile-description-ft-item">
-						<p>email:  fanchao05@gmail.com</p>
-            <p>phone: +1 (914) 733-8425</p>
+	<div class="page">
+		
+		<!--
+			Preloader
+		-->
+		<div class="preloader">
+			<div class="centrize full-width">
+				<div class="vertical-center">
+					<div class="spinner">
+						<div class="double-bounce1"></div>
+						<div class="double-bounce2"></div>
 					</div>
-					<!-- item -->
 				</div>
-				<!-- /Description feature -->
-			</div>
-			<!-- /Description -->
-			<!-- Footer -->
-			<div class="vcard-footer">
-				<!-- Social Icons -->
-				<div class="footer-social-icons">
-          <a href="https://www.linkedin.com/in/chaofan85/"><i class="fa fa-linkedin"></i></a>
-					<a href="https://github.com/chaofan85"><i class="fa fa-github"></i></a>
-					<a href="https://angel.co/chao-fan-1"><i class="fa fa-angellist"></i></a>
-          <a href="https://www.instagram.com/chao.gallery/"><i class="fa fa-instagram"></i></a>
-				</div>
-				<!-- /Social Icons -->
 			</div>
 		</div>
-		<!-- /SECTION: vCard Body  -->
+		
+		<!--
+			Header
+		-->
+		<header class="header">
 
-		<!-- PAGE: RESUME -->
-		<div class="section-vcardbody section-page" id="page-resume">
-
-			<!-- SECTION: Education -->
-			<div class="section-education">
-				<!-- Section title -->
-	            <h2 class="section-title">Resume</h2>
-	            <!-- /Section title -->
-
-	            <!-- Buttons -->
-	            <div class="resume-buttons header-page-buttons">
-	            	<!-- Download CV button -->
-					<a href="./src/Resume_Chao_Fan.pdf" class="btn btn-default btn-default2"><i class="fa fa-download"></i>&nbsp; Download my resume</a>
-	            	<!-- /Download CV button -->
-	            	<!-- Get in Touch button -->
-					<a href="#page-contact" class="btn btn-default btn-default2 link-page"><i class="fa fa-download"></i>&nbsp;  Get in Touch</a>
-	            	<!-- /Get in Touch button -->
-	            </div>
-	            <!-- /Buttons -->
-
-				<h2 class="section-title2"><i class="fa fa-university"></i>&nbsp; Education</h2>
-
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Graduation title -->
-                  	<h3 class="section-item-title-1">Full Stack Web Development</h3>
-                  	<!-- /Graduation title -->
-                  	<!-- Graduation time -->
-                  	<h4 class="graduation-time">App Academy (New York, NY) <br/>
-                      <span></span>
-                      <span class="graduation-date"> Sep 2017 - Nov 2017</span></h4>
-                  	<!-- /Graduation time -->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>1000-hour immersive full-stack web development intensive with &lt;3% acceptance rate</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-
-	             <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Graduation title -->
-                  	<h3 class="section-item-title-1">Master of Science, <br/> Information Systems</h3>
-                  	<!-- /Graduation title -->
-                  	<!-- Graduation time -->
-                    <h4 class="graduation-time">Baruch College (New York, NY) <br/>
-                      <span></span>
-                      <span class="graduation-date">Jan 2015 - May 2016</span></h4>
-                  	<!-- /Graduation time -->
-                  	<!-- content -->
-                  	<!-- <div class="graduation-description">
-                  	  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  	</div> -->
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-        <div class="resume-item">
-					<!-- Graduation title -->
-                  	<h3 class="section-item-title-1">Bechelor's Degree, <br/> Human Resources Management</h3>
-                  	<!-- /Graduation title -->
-                  	<!-- Graduation time -->
-                    <h4 class="graduation-time">University of International Business and Economics (Beijing, China) <br/>
-                      <span></span>
-                      <span class="graduation-date">Sep 2004 - July 2008</span></h4>
-                  	<!-- /Graduation time -->
-                  	<!-- content -->
-                  	<!-- /Content -->
-				</div>
-			</div>
-			<!--/ SECTION: Education -->
-
-			<!-- SECTION: WORK EXPERIENCE -->
-			<div class="section-education">
-
-	            <h2 class="section-title2"><i class="fa fa-flag"></i>&nbsp; Work Experience</h2>
-
-              <!-- Resume Item -->
-        <div class="resume-item">
-          <!-- Work Place -->
-                    <h3 class="section-item-title-1">Programming Instructor</h3>
-                    <!-- /Work Place -->
-                    <!-- Job Time -->
-                    <h4 class="job">App Academy <br/> <span class="job-date">July 2018 - </span></h4>
-                    <!-- /Job Time-->
-                    <!-- content -->
-                    <div class="graduation-description">
-                      <p>&bull; Taught intermediate programmers the fundamentals of programming and data structures <br/> &bull; Conducted one-on-one help with students on solving basic algorithm problems in Ruby programming language</p>
-                    </div>
-                    <!-- /Content -->
-        </div>
-              <!-- /Resume Item -->
-
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">Subway Safety Compliance Specialist</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Fangshan District Bureau of Transport of Beijing Municipality <br/> <span class="job-date">Jan 2011 - July 2014</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>&bull; Collated data from third-party data supplier on subway usage. Used Excel to calculate usage trends and provided statistics to supervisor <br/> &bull; Conducted physical inspection of trains to ensure compliance with safety regulations and created summary reports</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-
-	             <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">Administrative Assistant</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Fangshan District Bureau of Transport of Beijing Municipality <br/> <span class="job-date">Aug 2010 - Dec 2010</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>&bull; Answered phones and inquiries and directed internal and external callers to appropriate departments for problem resolution <br/> &bull; Ordered and maintained office supplies across departments for 250 employees. Tracked accounts payable and notified supervisor of unpaid invoices <br/> &bull; Notified staff of upcoming meetings and prepared materials</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">Traffic Specialist</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Fangshan District Bureau of Transport of Beijing Municipality <br/> <span class="job-date">Mar 2010 - July 2010</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>&bull; Regulated large truck activities at weighing stations and on the road to ensure trucks were not overloaded <br/> &bull; Wrote tickets to those in non-compliance and recorded delinquent activity</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-
-	            <!-- Resume Item -->
-				<div class="resume-item">
-					<!-- Work Place -->
-                  	<h3 class="section-item-title-1">Human Resources Specialist</h3>
-                  	<!-- /Work Place -->
-                  	<!-- Job Time -->
-                  	<h4 class="job">Fangshan District Bureau of Transport of Beijing Municipality <br/> <span class="job-date">Mar 2009 - Feb 2010</span></h4>
-                  	<!-- /Job Time-->
-                  	<!-- content -->
-                  	<div class="graduation-description">
-                  	  <p>&bull; Created and maintained employee profiles in regional online database of all government employees <br/> &bull; Prepared monthly employee salary reports for Finance Department <br/> &bull; Collected employee information and liaised with benefits department to secure benefits for new employees</p>
-                  	</div>
-                  	<!-- /Content -->
-				</div>
-	            <!-- /Resume Item -->
-			</div>
-			<!--/ SECTION: WORK EXPERIENCE -->
-
-
-
-			<div class="page-footer">
-				<!-- Buttons -->
-	            <div class="resume-buttons">
-	            	<!-- Download CV button -->
-					<a href="./src/Resume_Chao_Fan.pdf" class="btn btn-default btn-default2"><i class="fa fa-download"></i>&nbsp; Download my resume</a>
-	            	<!-- /Download CV button -->
-	            	<!-- Get in Touch button -->
-					<a href="#page-contact" class="btn btn-default btn-default2 link-page"><i class="fa fa-download"></i>&nbsp;  Get in Touch</a>
-	            	<!-- /Get in Touch button -->
-	            </div>
-	            <!-- /Buttons -->
-	            <!-- Quote -->
-	            <p class="footer-quote">"The best way to predict the future is to create it" <br/><i>Peter Drucker</i></p>
-	            <!-- /Quote -->
+			<!-- logo -->
+			<div class="logo">
+				<a href="#"><span>P</span></a>
 			</div>
 
-		</div>
-		<!-- /PAGE: RESUME  -->
+			<!-- menu -->
+			<div class="top-menu">
+				<ul>
+					<li class="active">
+						<a href="#home-card">
+							<span class="icon la la-home"></span>
+							<span class="link">Home</span>
+						</a>
+					</li>
+					<li>
+						<a href="#about-card">
+							<span class="icon la la-user"></span>
+							<span class="link">About</span>
+						</a>
+					</li>
+					<li>
+						<a href="#resume-card">
+							<span class="icon la la-file-text"></span>
+							<span class="link">Resume</span>
+						</a>
+					</li>
+					<li>
+						<a href="#works-card">
+							<span class="icon la la-eye"></span>
+							<span class="link">Portfolio</span>
+						</a>
+					</li>
+					<!-- <li>
+						<a href="#blog-card">
+							<span class="icon la la-newspaper-o"></span>
+							<span class="link">Blog</span>
+						</a>
+					</li> -->
+					<li>
+						<a href="#contacts-card">
+							<span class="icon la la-envelope"></span>
+							<span class="link">Contacts</span>
+						</a>
+					</li>
+				</ul>
+			</div>
 
-		<!-- SECTION: SKILLS-->
-		<div class="section-vcardbody section-page" id="page-skills">
-			<div class="section-skills">
+			<!-- Started socials -->
+			<div class="social">
+				<a target="_blank" href="https://www.linkedin.com/in/chaofan85/"><span class="icon la la-linkedin"></span></a>
+				<a target="_blank" href="https://github.com/chaofan85/"><span class="icon la la-github"></span></a>
+				<a target="_blank" href="https://angel.co/chao-fan-1/"><span class="icon la la-angellist"></span></a>
+			</div>
 
-				<!-- Section title -->
-	            <h2 class="section-title">SKILLS</h2>
-	            <!-- /Section title -->
+			<!-- Mobile Menu -->
+			<span class="menu-btn">
+				<span class="m-line"></span>
+			</span>
 
+		</header>
 
-	            <!-- Subtitle -->
-	          	<h3 class="section-item-title-2"><i class="fa fa-users"></i>&nbsp;&nbsp; Programming Langeuages</h3>
-	          	<!-- /Subtitle -->
+		<!--
+			Container
+		-->
+		<div class="container">
 
-				<!-- Skils List -->
-				<ul class="skills-list">
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar" id="progress-bar-js" role="progressbar" data-percent="90%" style="width: 90%;">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                        <span class="progress-type" id="javascript">JavaScript</span>
-                        <!-- <span class="progress-completed">85%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-2" id="progress-bar-ruby" role="progressbar" data-percent="85%" style="width: 85%;">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                        <span class="progress-type">Ruby</span>
-                        <!-- <span class="progress-completed">85%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress" title="Doing my best!">
-                        <div class="progress-bar progress-bar-3" id="progress-bar-python" role="progressbar" data-percent="85%" style="width: 60%;">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                        <span class="progress-type" id="python">Python</span>
-                        <!-- <span class="progress-completed">60%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <li>
-                      <div class="progress" title="Doing my best!">
-                        <div class="progress-bar" role="progressbar" id="progress-bar-cpp" data-percent="85%" style="width: 50%;">
-                            <span class="sr-only">85% Complete</span>
-                        </div>
-                        <span class="progress-type">C++</span>
-                        <!-- <span class="progress-completed">50%</span> -->
-                      </div>
-                    </li>
-                </ul>
-				<!-- /Skils List -->
+			<!--
+				Card - Started
+			-->
+			<div class="card-inner card-started active" id="home-card">
 
-				 <!-- Subtitle -->
-	          	<h3 class="section-item-title-2"><i class="fa fa-laptop"></i>&nbsp;&nbsp; Frontend Skills</h3>
-	          	<!-- /Subtitle -->
+				<!-- Started Background -->
+				<div id="particles-bg" class="slide" style="background-image: url(images/bg.jpg);"></div>
+				
+				<div class="centrize full-width">
+					<div class="vertical-center">
 
-				<!-- Skils List -->
-				<ul class="skills-list">
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar" data-percent="80%" role="progressbar" style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                        </div>
-                        <span class="progress-type" id="react">React.js</span>
-                        <!-- <span class="progress-completed">80%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-2" id="progress-bar-redux" data-percent="80%" role="progressbar" style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                        </div>
-                        <span class="progress-type" id="redux">Redux</span>
-                        <!-- <span class="progress-completed">80%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-3" id="progress-bar-jquery" data-percent="80%" role="progressbar" style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                        </div>
-                        <span class="progress-type" id="jquery">jQuery</span>
-                        <!-- <span class="progress-completed">80%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                  </ul>
-				<!-- /Skils List -->
-
-				 <!-- Subtitle -->
-	          	<h3 class="section-item-title-2"><i class="fa fa-code"></i>&nbsp;&nbsp; Backend Skills</h3>
-	          	<!-- /Subtitle -->
-
-				<!-- Skils List -->
-				<ul class="skills-list">
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar" id="progress-bar-rails" data-percent="80%" role="progressbar" style="width: 80%;">
-                            <span class="sr-only">80% Complete</span>
-                        </div>
-                        <span class="progress-type" id="rails">Ruby on Rails</span>
-                        <!-- <span class="progress-completed">80%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-2" id="progress-bar-node" data-percent="60%" role="progressbar" style="width: 60%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                        <span class="progress-type">Node.js</span>
-                        <!-- <span class="progress-completed">60%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                    <!-- item-list -->
-                    <li>
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-3" id="progress-bar-express" data-percent="50%" role="progressbar" style="width: 50%;">
-                            <span class="sr-only">50% Complete</span>
-                        </div>
-                        <span class="progress-type">express.js</span>
-                        <!-- <span class="progress-completed">50%</span> -->
-                      </div>
-                    </li>
-                    <!-- /item list -->
-                  </ul>
-				<!-- /Skils List -->
+						<!-- Started titles -->
+						<div class="title"><span>Chao</span> Fan</div>
+						<div class="subtitle">
+							I am 
+							<div class="typing-title">
+								<p>a <strong>software developer.</strong></p>
+								<p>a <strong>creator.</strong></p>
+								<p>a <strong>passionate worker.</strong></p>
+								<p>a <strong>dream realizer.</strong></p>
+							</div>
+							<span class="typed-title"></span>
+						</div>
+						
+					</div>
+				</div>
 
 			</div>
-		</div>
-		<!-- /SECTION: SKILLS  -->
 
-		<!-- SECTION: PORTFOLIO-->
-		<div class="section-vcardbody section-page" id="page-portfolio">
-			<div class="section-portfolio">
+			<!-- 
+				Card - About
+			-->
+			<div class="card-inner" id="about-card">
+				<div class="row card-container">
 
-				<!-- Section title -->
-	            <h2 class="section-title">Portfolio</h2>
-	            <!-- /Section title -->
-
-	            <!-- Projects list -->
-				<div class="projects-list">
-
-					<!-- item -->
-					<div class="project-item">
-						<!-- ==> Put your thumbnail as a background -->
-						<a href="https://www.instaview.cam/" class="project-thumbnail nivobox" data-lightbox-gallery="portfolio" style="background-image: url('img/portfolio/instaview.jpeg');" target="_blank">
-							<!-- project-description -->
-							<div class="project-description-wrapper">
-								<div class="project-description">
-									<!-- project name -->
-									<h2 class="project-title" id="instaview">Instaview</h2>
-									<!-- /project name -->
-									<span class="see-more">Single-page web app for sharing photos and discovering social connections <br/> <br/> Ruby on Rails / React.js / Redux / PostgreSQL</span>
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+						
+						<!-- About Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/profile.jpg);"></div>
+						
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">About Me</div>
+									<div class="text">
+										<p>
+											<strong>Hello, I'm Chao</strong>, software developer based on New York. <br />
+											I have experience in building full-stack project  <br />
+											with <strong>JavaScript, ReactJS, Redux, jQuery, <br />
+											Ruby on Rails and PostgreSQL. </strong>
+										</p>
+									</div>
+									<div class="circle-bts">
+										<a href="#"><span><i class="icon la la-download"></i>Download CV</span></a>
+										<a href="https://www.linkedin.com/in/chaofan85/"><i class="icon la la-linkedin"></i></a>
+										<a href="https://github.com/chaofan85"><i class="icon la la-github"></i></a>
+										<a href="https://angel.co/chao-fan-1"><i class="icon la la-angellist"></i></a>
+										<a href="https://www.instagram.com/chao.gallery/"><i class="icon la la-instagram"></i></a>
+									</div>
 								</div>
 							</div>
-							<!-- /project-description -->
-						</a>
-					</div>
-					<!-- /item -->
+						</div>
 
-					<!-- item -->
-					<div class="project-item">
-						<!-- ==> Put your thumbnail as a background -->
-						<a href="https://www.chaofan.live/GDP_Map/" class="project-thumbnail nivobox" data-lightbox-gallery="portfolio" style="background-image: url('img/portfolio/gdpmap.png');"
-            target="_blank">
-							<!-- project-description -->
-							<div class="project-description-wrapper">
-								<div class="project-description">
-									<!-- project name -->
-									<h2 class="project-title" id="gdpmap">GDP Map</h2>
-									<!-- /project name -->
-									<span class="see-more">A data visualization project that shows all countries' GDP from 1960 to 2016. <br/> <br/>HTML5 / CSS3 / JavaScript / jQuery / datamap </span>
+						<!--
+							Fun Fact
+						-->
+						<div class="content fuct">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title">My <span>Hobbies</span></div>
+
 								</div>
 							</div>
-							<!-- /project-description -->
-						</a>
-					</div>
-					<!-- /item -->
 
-					<!-- item -->
-					<div class="project-item">
-						<!-- ==> Put your thumbnail as a background -->
-						<a href="https://www.chaofan.live/trivia_master/" class="project-thumbnail nivobox" data-lightbox-gallery="portfolio" style="background-image: url('img/portfolio/trivia.png');"
-            target="_blank">
-							<!-- project-description -->
-							<div class="project-description-wrapper">
-								<div class="project-description">
-									<!-- project name -->
-									<h2 class="project-title" id="trivia">Trivia Master</h2>
-									<!-- /project name -->
-									<span class="see-more">A browser quiz game that user can answer various kinds of questions <br/><br/> HTML5 / CSS3 / JavaScript / jQuery</span>
+							<!-- fuct items -->
+							<div class="row fuct-items">
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-headphones"></i></div>
+										<div class="name">Listening to Music</div>
+									</div>
 								</div>
-							</div>
-							<!-- /project-description -->
-						</a>
-					</div>
-					<!-- /item -->
 
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-book"></i></div>
+										<div class="name">Reading</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-gamepad"></i></div>
+										<div class="name">Video Games</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-camera"></i></div>
+										<div class="name">Photograph</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-code"></i></div>
+										<div class="name">Coding</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-film"></i></div>
+										<div class="name">Watching Movies</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-music"></i></div>
+										<div class="name">Playing the Keyboard</div>
+									</div>
+								</div>
+
+								<!-- fuct item -->
+								<div class="col col-m-6 col-t-6 col-d-3 col-d-lg-3">
+									<div class="fuct-item card-box">
+										<div class="icon"><i class="la la-lightbulb-o"></i></div>
+										<div class="name">Thinking</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+					
 				</div>
-				<!-- /projects list -->
-
 			</div>
-		</div>
-		<!-- /SECTION: PORTFOLIO  -->
+			
+			<!-- 
+				Card - Resume
+			-->
+			<div class="card-inner" id="resume-card">
+				<div class="row card-container">
+						
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
 
+						<!-- Resume Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/profile2.jpg);"></div>
 
-		<!-- SECTION: CONTACT-->
-		<div class="section-vcardbody section-page" id="page-contact">
-			<div class="section-contact">
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class=" col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Resume</div>
+								</div>
+							</div>
+						</div>
 
-				<!-- Section title -->
-	            <h2 class="section-title">Contact</h2>
-	            <!-- /Section title -->
+						<!--
+							Resume
+						-->
+						<div class="content resume">
+							<div class="row">
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
 
-	            <!-- <div class="map">
-	            	<div class="map-overlay"></div>
-	            	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8352.985568651915!2d-0.12905994797222892!3d51.50665753790812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondon%2C+UK!5e0!3m2!1spt-BR!2sbr!4v1443128181953" height="250" style="border:0" allowfullscreen></iframe>
-	            </div> -->
+									<!-- title -->
+									<div class="title"><span>My</span> Experience</div>
 
-	            <!-- Contact infos -->
-                <div class="contact-infos">
-                	<h4 class="contact-subtitle-1"><i class="fa fa-map"></i>&nbsp;   Location</h4>
-                	<p>New York, NY</p>
-                	<h4 class="contact-subtitle-1"><i class="fa fa-phone-square"></i>&nbsp; Phone</h4>
-                	<p>+1 (914) 733-8425</p>
-                	<h4 class="contact-subtitle-1"><i class="fa fa-envelope"></i>&nbsp; Mail</h4>
-                	<p>fanchao05@gmail.com</p>
-                </div>
-                <!-- /Contact infos -->
+									<!-- resume items -->
+									<div class="resume-items card-box">
 
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">Software Developer Technical Instructor</div>
+											<div class="date">Aug 2018 - Present <span>|</span> App Academy</div>
+											<p>
+												• Taught intermediate programmers the fundamentals of programming and data structures.
+											</p>
+											<div></div>
+											<p>
+												• Conducted one-on-one help with students on solving basic algorithm problems in Ruby programming language.
+											</p>
+										</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">Subway Safety Compliance Specialist</div>
+											<div class="date">Jan 2011 - Aug 2014 <span>|</span> Bureau of Transport of Beijing Municipality</div>
+											<p>
+												• Collated data from third-party data supplier on subway usage. Used Excel to calculate usage trends and provided
+												statistics to the supervisor
+											</p>
+											<p>
+												• Conducted physical inspection of trains to ensure compliance with safety regulations and created summary reports
+											</p>
+										</div>
+										
+
+									</div>
+								</div>
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Education</div>
+
+									<!-- resume items -->
+									<div class="resume-items card-box">
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">App Academy</div>
+											<div class="date">2017 <span>|</span> New York, NY</div>
+											<p>
+												1000-hour immersive full-stack web development intensive with <3% acceptance rate
+											</p>
+										</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">Baruch College</div>
+											<div class="date">2015-2016 <span>|</span> New York, NY</div>
+											<p>
+												Master's Degree in Information Systems
+											</p>
+										</div>
+
+										<!-- resume item -->
+										<div class="resume-item">
+											<div class="name">University of International Business and Economics</div>
+											<div class="date">Beijing, China</div>
+											<p>
+												Bachelor's Degree in Human Resource Management
+											</p>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Skills
+						-->
+						<div class="content skills">
+							<div class="row">
+								
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+
+									<!-- title -->
+									<div class="title"><span>Professional</span> Skills</div>
+
+									<!-- skills -->
+									<div class="skills-list card-box">
+										<ul>
+											<li> 
+												<div class="name">HTML / CSS / JS</div>
+												<div class="progress">
+													<div class="percentage" style="width:85%;"></div>
+												</div>
+											</li>
+											<li> 
+												<div class="name">React / Redux</div>
+												<div class="progress">
+													<div class="percentage" style="width:85%;"></div>
+												</div>
+											</li>
+											<li> 
+												<div class="name">Ruby on Rails</div>
+												<div class="progress">
+													<div class="percentage" style="width:80%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">SQL</div>
+												<div class="progress">
+													<div class="percentage" style="width:80%;"></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+
+									
+
+								</div>
+
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+								
+									<!-- title -->
+									<div class="title"><span>Personal</span> Skills</div>
+								
+									<!-- skills -->
+									<div class="skills-list card-box">
+										<ul>
+											<li>
+												<div class="name">Communication</div>
+												<div class="progress">
+													<div class="percentage" style="width:80%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Team Work</div>
+												<div class="progress">
+													<div class="percentage" style="width:80%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Learning Ability</div>
+												<div class="progress">
+													<div class="percentage" style="width:85%;"></div>
+												</div>
+											</li>
+											<li>
+												<div class="name">Chinese (Mandarin)</div>
+												<div class="progress">
+													<div class="percentage" style="width:100%;"></div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
 			</div>
+			
+			<!-- 
+				Card - Works
+			-->
+			<div class="card-inner" id="works-card">
+				<div class="row card-container">
+					
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+
+						<!-- Work Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/profile3.jpg);"></div>
+
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Portfolio</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Works
+						-->
+						<div class="content works">
+							<div class="row">
+								<div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Portfolio</div>
+
+								</div>
+								<div class="col col-m-12 col-t-7 col-d-7 col-d-lg-7">
+
+									<!-- filters -->
+									<div class="filter-menu filter-button-group">
+										<div class="f_btn active">
+											<label><input type="radio" name="fl_radio" value="grid-item" />All</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="photo" />Full Stack Project</label>
+										</div>
+										<div class="f_btn">
+											<label><input type="radio" name="fl_radio" value="video" />Front End Project</label>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- work items -->
+							<div class="row grid-items">
+
+								<!-- work item photo -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item photo">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-1" class="has-popup-media">
+												<img src="images/works/work1.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-camera-retro"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-1" class="name has-popup-media">Instaview</a>
+											<div class="category">Full Stack Application</div>
+										</div>
+										<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="images/works/work1.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1 style="font-family: 'Elsie', cursive;">Instaview</h1>
+														<div class="blog-detail">Full Stack Application</div>
+														<div class="blog-content">
+															<p>
+																An Instagram clone project, is a social media application that allows users to share their photos, like other users'
+																photos, make comments and follow the users that they are interested in.
+															</p>
+															<p>Technology:</p>
+															<blockquote>
+																Ruby on Rails, <br> 
+																React, <br>
+																Redux, <br>
+																PostgreSQL, <br>
+																AWS
+															</blockquote>
+															<p>
+																Responsibilities:
+															</p>
+															<ul class="list-style">
+																<li>Built custom reusable modal component with React for different user interfaces.</li>
+																<li>Created infinite scroll feature with React lifecycle methods, that loads more content only when the user scrolls to
+																the bottom of the page.</li>
+																<li>Implemented photo uploading feature that stores photos on Amazon Web services S3.</li>
+															</ul>
+														</div>
+														<a href="https://www.instaview.cam/" target="_blank" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+														<br>
+														<a href="https://github.com/chaofan85/Instaview" target="_blank" class="button">
+															<span class="text">GitHub</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item video -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item video">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-2" class="has-popup-media">
+												<img src="images/works/work2.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-map"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-2" class="name has-popup-media">GDP Map</a>
+											<div class="category">Data Visualization</div>
+										</div>
+										<div id="popup-2" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="images/works/work4.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>GDP Map</h1>
+														<div class="blog-detail">Data Visualization</div>
+														<div class="blog-content">
+															<p>
+																A data visualization project, which shows all countries' GDP from 1960 to 2016. 
+															</p>
+															<p>
+																Technology:
+															</p>
+															<blockquote>
+																HTML5/CSS3, <br>
+																jQuery, <br>
+																datamaps library, <br>
+																World Bank API, <br>
+															</blockquote>
+															<p>
+																Responsibilities:
+															</p>
+															<ul class="list-style">
+																<li>Obtained the GDP data from World Bank API by sending AJAX request and parsed JSON file for the purpose of data
+																visualization.</li>
+																<li>Utilized datamaps library and formatted JSON file to render a world map that shows different color for each country
+																based on its GDP value.</li>
+																<li>Integrated the data with the world map to show a country’s GDP data and more information when the mouse clicks on each
+																country on the map.</li>
+															</ul>
+														</div>
+														<a href="https://www.chaofan.live/GDP_Map/" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+														<br>
+														<a href="https://github.com/chaofan85/GDP_Map" class="button">
+															<span class="text">GitHub</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item music -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item video">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-3" class="has-popup-media">
+												<img src="images/works/work3.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-3" class="name has-popup-media">Trivia Master</a>
+											<div class="category">Web Game</div>
+										</div>
+										<div id="popup-3" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="images/works/work3.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Trivia Master</h1>
+														<div class="blog-detail">Web Game</div>
+														<div class="blog-content">
+															<p>
+																A web quiz game where the player can answer various kinds of questions.
+															</p>
+															<p>
+																Technology:
+															</p>
+															<blockquote>
+																HTML5/CSS3, <br>
+																JavaScript, <br>
+																jQuery, <br>
+																AJAX
+															</blockquote>
+															<p>
+																Responsibilities:
+															</p>
+															<ul class="list-style">
+																<li>Designed the quiz game that sends AJAX requests to third-party API to fetch the questions based on the player’s choice.</li>
+																<li>Utilized jQuery to implement a role-playing game system that allows the player to gain more abilities during the game.</li>
+															</ul>
+														</div>
+														<a href="https://www.chaofan.live/trivia_master/" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+														<br>
+														<a href="https://github.com/chaofan85/trivia_master" class="button">
+															<span class="text">GitHub</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item design -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item video">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-4" class="has-popup-media">
+												<img src="images/works/work4.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-4" class="name has-popup-media">eQuery</a>
+											<div class="category">JavaScript Library</div>
+										</div>
+										<div id="popup-4" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="images/works/work4.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Mobile Application</h1>						
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																eQuery is a lightweight JavaScript library for traversing and manipulating the DOM on the webpage, handling events and
+																making AJAX requests. It is written in vanilla JavaScript.
+															</p>
+															<p>
+																Technology:
+															</p>
+															<blockquote>
+																JavaScript
+															</blockquote>
+															<p>
+																Responsibilities:
+															</p>
+															<ul class="list-style">
+																<li>Created a JavaScript library with vanilla JavaScript to easily manipulate DOM elements and handle events.</li>
+																<li>Built a web application to demonstrate the features of the eQuery library, which contains a to-do list and a simple
+																weather application.</li>
+															</ul>
+														</div>
+														<a href="https://www.chaofan.live/eQuery/" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+														<br>
+														<a href="https://github.com/chaofan85/eQuery" class="button">
+															<span class="text">GitHub</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- work item photo -->
+								<!-- <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item photo">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="images/works/work5.jpg" class="has-popup-image">
+												<img src="images/works/work5.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-camera-retro"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="images/works/work5.jpg" class="name has-popup-image">Gereal Travels</a>
+											<div class="category">Photo</div>
+										</div>
+									</div>
+								</div> -->
+
+								<!-- work item music -->
+								<!-- <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item music">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="https://w.soundcloud.com/player/?visual=true&url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&show_artwork=true" class="has-popup-music">
+												<img src="images/works/work8.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-music"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#" class="name has-popup">Daylight Entrance</a>
+											<div class="category">Music</div>
+										</div>
+									</div>
+								</div> -->
+
+								<!-- work item video -->
+								<!-- <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item video">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="https://vimeo.com/97102654" class="has-popup-video">
+												<img src="images/works/work6.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-video-camera"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="https://vimeo.com/97102654" class="name has-popup-video">Architecture</a>
+											<div class="category">Video</div>
+										</div>
+									</div>
+								</div> -->
+
+								<!-- work item design -->
+								<!-- <div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6 grid-item design">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="#popup-2" class="has-popup-media">
+												<img src="images/works/work7.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-image"></span>
+												</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="#popup-2" class="name has-popup-media">Social Website</a>
+											<div class="category">Design</div>
+										</div>
+										<div id="popup-2" class="popup-box mfp-fade mfp-hide">
+											<div class="content">
+												<div class="image">
+													<img src="images/works/work7.jpg" alt="">
+												</div>
+												<div class="desc">
+													<div class="post-box">
+														<h1>Mobile Application</h1>						
+														<div class="blog-detail">Design</div>
+														<div class="blog-content">
+															<p>
+																So striking at of to welcomed resolved. Northward by described up household therefore 
+																attention. Excellence decisively nay man yet impression for contrasted remarkably.
+															</p>
+															<p>
+																Forfeited you engrossed but gay sometimes explained. Another as studied it to evident. 
+																Merry sense given he be arise. Conduct at an replied removal an amongst. Remaining 
+																determine few her two cordially admitting old.
+															</p>
+															<blockquote>
+																Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia 
+																Curae; Pellentesque suscipit.
+															</blockquote>
+															<p>
+																Tiled say decay spoil now walls meant house. My mr interest thoughts screened of outweigh 
+																removing. Evening society musical besides inhabit ye my. Lose hill well up will he over on. 
+																Increasing sufficient everything men him admiration unpleasing sex.
+															</p>
+															<ul class="list-style">
+																<li>Greatest properly off ham exercise all.</li>
+																<li>Unsatiable invitation its possession nor off.</li>
+																<li>All difficulty estimating unreserved increasing the solicitude.</li>
+															</ul>
+															<p>
+																Unpleasant astonished an diminution up partiality. Noisy an their of meant. Death means 
+																up civil do an offer wound of.
+															</p>
+														</div>
+														<a href="#" class="button">
+															<span class="text">View Project</span>
+															<span class="arrow"></span>
+														</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> -->
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- 
+				Card - Blog
+			-->
+			<div class="card-inner" id="blog-card">
+				<div class="row card-container">
+						
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+						
+						<!-- Blog Image -->
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/profile4.jpg);"></div>
+						
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">My Blog</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Blog
+						-->
+						<div class="content blog">
+							<div class="row">
+								<div class="col col-m-12 col-t-5 col-d-5 col-d-lg-5">
+
+									<!-- title -->
+									<div class="title"><span>My</span> Blog</div>
+
+								</div>
+								<div class="col col-m-12 col-t-7 col-d-7 col-d-lg-7">
+
+									<!-- filters -->
+									<div class="all-blog">
+										<a href="blog.html">All Blog</a>
+									</div>
+
+								</div>
+							</div>
+
+							<!-- blog items -->
+							<div class="row">
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="blog-post.html">
+												<img src="images/blog/blog1.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>20</strong>Jun</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
+											<div class="category">Design</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="blog-post.html">
+												<img src="images/blog/blog2.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>19</strong>Jun</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="blog-post.html" class="name">Two Before Arrow Not Relied</a>
+											<div class="category">Coding</div>
+										</div>
+									</div>
+								</div>
+
+								<!-- blog item -->
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="box-item card-box">
+										<div class="image">
+											<a href="blog-post.html">
+												<img src="images/blog/blog3.jpg" alt="" />
+												<span class="info">
+													<span class="icon la la-newspaper-o"></span>
+												</span>
+												<span class="date"><strong>20</strong>Jun</span>
+											</a>
+										</div>
+										<div class="desc">
+											<a href="blog-post.html" class="name">By spite about do of do allow blush</a>
+											<div class="category">Travel</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</div> 
+
+					</div>
+						
+				</div>
+			</div>
+			
+			<!-- 
+				Card - Contacts
+			-->
+			<div class="card-inner" id="contacts-card">
+				<div class="row card-container">
+					
+					<!--
+						Card Wrap
+					-->
+					<div class="card-wrap col col-m-12 col-t-12 col-d-8 col-d-lg-6" data-simplebar>
+						
+						<!-- Map -->
+						<!-- <div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6">
+							<div class="map" id="map"></div>
+						</div> -->
+
+						<div class="card-image col col-m-12 col-t-12 col-d-4 col-d-lg-6" style="background-image: url(images/profile4.jpg);">
+						</div>
+							
+						<!--
+							Inner Top
+						-->
+						<div class="content inner-top">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+									<div class="title-bg">Contacts</div>
+								</div>
+							</div>
+						</div>
+
+						<!--
+							Contacts Info
+						-->
+						<div class="content contacts-info">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>Get</span> in Touch</div>
+
+								</div>
+							</div>
+
+							<!-- contacts items -->
+							<div class="row contacts-items">
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-map-marker"></i></div>
+										<div class="name">Location</div>
+										<p>
+											Queens, NYC.
+										</p>
+									</div>
+								</div>
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-at"></i></div>
+										<div class="name">Email</div>
+										<p>
+											fanchao05@gmail.com
+										</p>
+									</div>
+								</div>
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-phone"></i></div>
+										<div class="name">Phone</div>
+										<p>
+											914-733-8425
+										</p>
+									</div>
+								</div>
+
+								<!-- contacts item -->
+								<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+									<div class="contacts-item card-box">
+										<div class="icon"><i class="la la-linkedin"></i></div>
+										<div class="name">LinkedIn</div>
+										<p>
+											<a target="_blank" href="https://www.linkedin.com/in/chaofan85/">Click Here</a>
+										</p>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<!--
+							Contacts Form
+						-->
+						<div class="content contacts-form">
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- title -->
+									<div class="title"><span>Contact</span> Form</div>
+
+								</div>
+							</div>
+							<div class="row">
+								<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+
+									<!-- form -->
+									<div class="contact_form card-box">
+										<form id="cform" method="post">
+											<div class="row">
+												<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+													<div class="group-val">
+														<input type="text" name="name" placeholder="Full Name" />
+													</div>
+												</div>
+												<div class="col col-m-12 col-t-6 col-d-6 col-d-lg-6">
+													<div class="group-val">
+														<input type="text" name="email" placeholder="Email Address" />
+													</div>
+												</div>
+												<div class="col col-m-12 col-t-12 col-d-12 col-d-lg-12">
+													<div class="group-val">
+														<textarea name="message" placeholder="Your Message"></textarea>
+													</div>
+												</div>
+											</div>
+											<div class="align-left">
+												<a href="mailto:fanchao05@gmail.com" class="button" onclick="$('#cform').submit(); return false;">
+													<span class="text">Send Message</span>
+													<span class="icon"><i class="la la-arrow-right"></i></span>
+												</a>
+											</div>
+										</form>
+										<div class="alert-success">
+											<p>Thanks, your message is sent successfully.</p>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+					
+				</div>
+			</div>
+			
+			<!-- 
+				Lines Grid
+			-->
+			<div class="lines-grid">
+				<div class="row">
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3"></div>
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+							<div class="line-2" style="animation-delay: 10s;"></div>
+						</div>
+					</div>
+					<div class="col col-m-12 col-t-6 col-d-4 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+						</div>
+					</div>
+					<div class="col col-m-0 col-t-0 col-d-0 col-d-lg-3">
+						<div class="lines">
+							<div class="line-1"></div>
+							<div class="line-2" style="animation-delay: 0s;"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
-		<!-- /SECTION: CONTACT  -->
 	</div>
-
-</section>
-<!-- /Main Content
-================================================== -->
-
-<!-- Contact Form - Ajax Messages
-========================================================= -->
-<!-- Form Sucess -->
-<div class="form-result modal-wrap" id="contactSuccess">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-check-circle"></i> Success!</h4>
-    <p>Your message has been sent to us.</p>
-  </div>
-</div>
-<!-- /Form Sucess -->
-<!-- form-error -->
-<div class="form-result modal-wrap" id="contactError">
-  <div class="modal-bg"></div>
-  <div class="modal-content">
-    <h4 class="modal-title"><i class="fa fa-times"></i> Error</h4>
-    <p>There was an error sending your message.</p>
-  </div>
-</div>
-<!-- /form-error -->
-
-<!-- Contact Form - Ajax Messages
-========================================================= -->
-
-
-<!-- >> JS
-============================================================================== -->
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="vendor/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="vendor/validate.js"></script>
-<!-- Holder JS -->
-<script src="vendor/holder.js"></script>
-<!-- Modal box-->
-<script src="vendor/nivo-lightbox/nivo-lightbox.min.js"></script>
-<!-- /Modal Box -->
-<!-- Perfect ScrolBar -->
-<script src="vendor/perfect-scrollbar/js/min/perfect-scrollbar.jquery.min.js"></script>
-<!-- /Perfect ScrolBar -->
-<!-- Owl Caroulsel -->
-<script src="vendor/owl.carousel/owl-carousel/owl.carousel.js"></script>
-<!-- Google Maps -->
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<!-- Cross-browser -->
-<script src="vendor/cross-browser.js"></script>
-<!-- Main Scripts -->
-<script src="js/main.js"></script>
-
-<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-  <script src="vendor/html5shiv.js"></script>
-  <script src="vendor/respond.min.js"></script>
-<![endif]-->
-<!-- >> /JS
-============================================================================= -->
+	
+	<!--
+		jQuery Scripts
+	-->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/jquery.magnific-popup.js"></script>
+	<script src="js/imagesloaded.pkgd.js"></script>
+	<script src="js/masonry.pkgd.js"></script>
+	<script src="js/masonry-filter.js"></script>
+	<script src="js/simplebar.js"></script>
+	<script src="js/typed.js"></script>
+	<script src="js/particles.js"></script>
+	
+	<!--
+		Google map api
+	-->
+	<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+	
+	<!--
+		Main Scripts
+	-->
+	<script src="js/scripts.js"></script>
+	<script src="js/particles-setting.js"></script>
+	
 </body>
 </html>
